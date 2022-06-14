@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio9</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var temperatura = prompt('¿Qué temperatura hace donde estás?','');
+        temperatura = Number(temperatura);
+        if((temperatura>40) || (temperatura<10))
+        document.write('Vete a otro sitio.')
+        else if ((temperatura>30) && (temperatura<40))
+        document.write('Enciende el aire acondicionado.')
+        else if ((temperatura>20) && (temperatura<30))
+        document.write('No hagas nada.')
+        else if ((temperatura>10) && (temperatura<20))
+        document.write('Enciende la calefacción.')
+    </script>
+</body>
+</html>

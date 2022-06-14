@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var num1 = prompt('Escribe un número:','');
+        num1 = Number(num1);
+        var num2 = prompt('Escribe otro número:','');
+        num2 = Number(num2);
+        document.write('El resultado de sumar ambos números es ',num1+num2,'.<br/>')
+        document.write('El resultado de multiplicar ambos números es ',num1*num2,'.<br/>')
+        document.write('El resultado de restar ambos números es ',num1-num2,'.<br/>')
+        document.write('La media aritmética de ambos números es ',(num1+num2)/2,'.<br/>')
+        if(num1>num2)
+        document.write('El número ',num1,' es mayor que ',num2,'.<br/>')
+        else if (num1<num2)
+        document.write('El número ',num1,' es menor que ',num2,'.<br/>')
+        if(num2>num1)
+        document.write('El número ',num2,' es mayor que ',num1,'.')
+        else if (num2<num1)
+        document.write('El número ',num2,' es menor que ',num1,'.')
+    </script>
+</body>
+</html>
